@@ -6,8 +6,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint --fix",
-        "postbuild": "node netlify/next-runtime.js"
+        "lint": "next lint --fix"
     },
     "dependencies": {
         "@netlify/plugin-nextjs": "^5.15.1",
