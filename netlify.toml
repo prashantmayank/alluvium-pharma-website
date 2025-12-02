@@ -7,3 +7,5 @@ publish = ".next"
 package = "@netlify/plugin-nextjs"
 
 
+[functions]
+included_files = ["next.config.js"]

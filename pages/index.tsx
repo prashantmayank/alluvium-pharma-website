@@ -450,12 +450,7 @@ export default function PharmaWebsite() {
 
           {/* Netlify contact form */}
           <div className="bg-white border rounded-3xl p-6 shadow-sm">
-            <form
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              className="space-y-4"
-            >
+            <div role="form">
               <input type="hidden" name="form-name" value="contact" />
               <div>
                 <label className="text-sm font-medium block mb-1">
@@ -499,7 +494,7 @@ export default function PharmaWebsite() {
                 />
               </div>
               <Button className="w-full mt-2">Submit Enquiry</Button>
-            </form>
+            </div>
           </div>
         </section>
 
